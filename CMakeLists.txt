@@ -18,3 +18,7 @@ add_executable(testAlgorithms test/test_algorithms.cpp)
 target_link_libraries(testAlgorithms algorithms gtest gtest_main)
 
 add_test(NAME testAlgorithms COMMAND testAlgorithms)
+
+
+add_library(strings src/Strings/String.c)
+

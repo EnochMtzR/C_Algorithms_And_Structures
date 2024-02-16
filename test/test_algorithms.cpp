@@ -34,3 +34,12 @@ TEST(BinarySearch, Algorithms) {
 }
 
 
+TEST(BubbleSort, Algorithms) {
+    int array[] = {9, 3, 7, 4, 69, 420, 42};
+    int sorted[] = {3, 4, 7, 9, 42, 69, 420};
+
+    bubbleSort(array, 7);
+
+    EXPECT_ARRAY_EQ(array, sorted, 7);
+}
+

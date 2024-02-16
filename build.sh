@@ -4,3 +4,4 @@ cd debug
 make
 
 cp testAlgorithms ../
+cp testLists ../

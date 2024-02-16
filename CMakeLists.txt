@@ -22,3 +22,11 @@ add_test(NAME testAlgorithms COMMAND testAlgorithms)
 
 add_library(strings src/Strings/String.c)
 
+
+add_library(lists src/Lists/List.c src/Lists/Node.c)
+
+add_executable(testLists test/test_list.cpp)
+
+target_link_libraries(testLists lists strings gtest gtest_main)
+
+add_test(NAME testLists COMMAND testLists)

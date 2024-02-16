@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/sackra/courses/development/C/AlgorithmsAndDataStructures/debug",
+  "command": "/usr/bin/gcc  -I/home/sackra/courses/development/C/AlgorithmsAndDataStructures/include -g -o CMakeFiles/Algorithms.dir/src/algorithms.c.o -c /home/sackra/courses/development/C/AlgorithmsAndDataStructures/src/algorithms.c",
+  "file": "/home/sackra/courses/development/C/AlgorithmsAndDataStructures/src/algorithms.c"
+},
+{
+  "directory": "/home/sackra/courses/development/C/AlgorithmsAndDataStructures/debug",
+  "command": "/usr/bin/g++  -I/home/sackra/courses/development/C/AlgorithmsAndDataStructures/include -g -o CMakeFiles/TestAlgorithms.dir/test/test_algorithms.cpp.o -c /home/sackra/courses/development/C/AlgorithmsAndDataStructures/test/test_algorithms.cpp",
+  "file": "/home/sackra/courses/development/C/AlgorithmsAndDataStructures/test/test_algorithms.cpp"
+}
+]
